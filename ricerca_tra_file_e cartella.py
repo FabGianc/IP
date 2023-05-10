@@ -1,5 +1,5 @@
 # Ricerca il contenuto di un file (k_path) all'interno di tutti i file presenti in una cartella (s_path)
-# Lo script viene usato per verificare se in nei file di log contenuti nella cartella <s_path> 
+# Lo script viene usato per verificare se nei file di log contenuti nella cartella <s_path> 
 # vi sono exit node di TOR <k_path>
 
 # Import Module
