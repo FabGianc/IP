@@ -1,3 +1,6 @@
+# Esegue il merge dei file memorizzati all'interno della cartella <percorso_cartella_output>
+# in un unico file <percorso_file_unificato.txt>
+
 import os
 
 # Definisci la cartella di output
