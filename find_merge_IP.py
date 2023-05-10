@@ -1,3 +1,8 @@
+# Estrae gli indirizzi IP da più file all'interno della cartella <percorso_cartella_input>
+# e li memorizza all'interno della cartella <percorso_cartella_output>
+# Crea un file <percorso_file_unificato.txt> dove viene fatto il merge di tutti gli indirizzi IP
+# e successivamente vengono rimossi i duplicati
+
 import os
 import re
 
