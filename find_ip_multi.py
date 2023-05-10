@@ -1,8 +1,11 @@
+# Estrae gli indirizzi IP da più file all'interno della cartella <percorso_cartella_input>
+# e li memorizza all'interno della cartella <percorso_cartella_output>
+
 import os
 import re
 
 # Definisci la cartella di input e di output
-cartella_input = 'E:\Laservideo\\150820_DEMASI_Catanzaro\W3SVC1'
+cartella_input = 'percorso_cartella_input'
 cartella_output = 'percorso_cartella_output'
 
 # Crea la cartella di output se non esiste già
