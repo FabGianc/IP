@@ -1,8 +1,12 @@
+# Estrae gli indirizzi IP da più file all'interno della cartella <percorso_cartella_input>
+# e li memorizza all'interno della cartella <percorso_cartella_output>
+# Crea, infine, un file <percorso_file_unificato.txt> dove viene fatto il merge di tutti gli indirizzi IP
+
 import os
 import re
 
 # Definisci la cartella di input, la cartella di output e il percorso del file unificato
-cartella_input = 'E:\Laservideo\\150820_DEMASI_Catanzaro\W3SVC1'
+cartella_input = 'percorso_cartella_input'
 cartella_output = 'percorso_cartella_output'
 percorso_file_unificato = 'percorso_file_unificato.txt'
 
