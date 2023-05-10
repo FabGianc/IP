@@ -1,13 +1,15 @@
 # Ricerca il contenuto di un file (k_path) all'interno di tutti i file presenti in una cartella (s_path)
+# Lo script viene usato per verificare se in nei file di log contenuti nella cartella <s_path> 
+# vi sono exit node di TOR <k_path>
 
 # Import Module
 import os
 
 # file contenente le chiavi di ricerca
-k_path = 'C:\\Users\\nemo_\\Desktop\\TerrediPianura\\tor-exit-nodes.lst'
+k_path = 'C:\\Users\\Desktop\\tor-exit-nodes.lst'
 
 # Cartella dei file in cui ricercare
-s_path = 'C:\\Users\\nemo_\\Desktop\\TerrediPianura\\Log IP (Terre di Pianura)'
+s_path = 'C:\\Users\\Desktop\\Log_IP'
 
 # Definisco la directory di lavoro
 os.chdir(s_path)
