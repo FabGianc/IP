@@ -1,0 +1,29 @@
+https://www.team-cymru.com/ip-asn-mapping
+
+The v4.whois.cymru.com server is primarily designed to map an IP address to a BGP Origin ASN and prefix.
+
+The v4-peer.whois.cymru.com server is designed to map an IP address to the possible BGP peer ASNs that are one AS hop away from the BGP Origin ASN's prefix. This can be useful at times when you're looking for a quick view into who an IP's upstreams might be. Note that this method of finding peers is FAR from perfect and not an exact science. When the Origin ASN is a Tier 1 any concept of 'upstream' tends to lose its meaning.
+
+The syntax for whois and netcat whois IP queries is as follows: 
+
+Whois   Netcat          Action
+        begin           enable bulk input mode          (netcat only)
+        end             exit the whois/netcat client    (netcat only)
+-p      prefix          include matching prefix
+-q      noprefix        disable matching prefix (default)
+-c      countrycode     include matching country code
+-d      nocountrycode   disable country codes (default)
+-n      asname          include asnames (default)
+-o      noasname        disable asnames
+-r      registry        display matching registry
+-s      noregistry      disable registry display (default)
+-a      allocdate       enable allocation date
+-b      noallocdate     disable allocation date (default)
+-t      truncate        truncate asnames (default)
+-u      notruncate      do not truncate asnames
+-v      verbose         enable all flags (-c -r -p -a -u -a)
+-e      header          enable column headings (default)
+-f      noheader        disable column headings 
+-w      asnumber        include asnumber column (default)
+-x      noasnumber      disable asnumber column (will not work for IP mappings)
+-h      help            this help message
