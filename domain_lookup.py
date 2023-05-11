@@ -3,7 +3,7 @@ Per ottenere informazioni complete sul dominio associato a un indirizzo IP,
 utilizziamo la libreria ipwhois. Assicurati di installare la libreria 
 eseguendo il comando pip install ipwhois prima di eseguire lo script.
 Per ottenere informazioni aggiuntive anche per gli indirizzi IP senza un'associazione di dominio specifica, 
- utilizziamo la libreria socket per eseguire una risoluzione DNS inversa e ottenere il nome host associato a quell'indirizzo IP.
+utilizziamo la libreria socket per eseguire una risoluzione DNS inversa e ottenere il nome host associato a quell'indirizzo IP.
 '''
 
 import socket
