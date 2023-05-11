@@ -1,4 +1,4 @@
-# Tool in python
+# Tool in python e non solo
 Tool per lavorare con i file di log/IP
 
 Ricerca gli indirizzi IP (pattern) su più file, esegue il merge e rimuove i duplicati
