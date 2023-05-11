@@ -7,8 +7,8 @@ import os
 import re
 
 # Definisci la cartella di input, la cartella di output e il percorso del file unificato
-cartella_input = 'E:\Laservideo\\150820_DEMASI_Catanzaro\W3SVC1'
-cartella_output = 'percorso_cartella_output'
+cartella_input = r'percorso_cartella_output'
+cartella_output = r'percorso_cartella_output'
 percorso_file_unificato = 'percorso_file_unificato.txt'
 
 # Crea la cartella di output se non esiste già
