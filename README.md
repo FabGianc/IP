@@ -5,7 +5,8 @@ Ricerca gli indirizzi IP (pattern) su più file, esegue il merge e rimuove i dup
 
 Ricerca il contenuto di un file all'interno di tutti i file presenti in una cartella. 
 
-Ricerca gli exit node di TOR all'interno dei file di log contenuti in una cartella, attraverso richiesta API al servizio di verifica degli indirizzi IP di Tor.
+Ricerca gli exit node di TOR all'interno dei file di log contenuti in una cartella, la verifica viene effettuata attraverso 
+richiesta API al servizio di verifica degli indirizzi IP di Tor.
 
 Esegue il whois data un lista di indirizzi IP
 
